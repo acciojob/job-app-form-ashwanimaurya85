@@ -12,11 +12,11 @@
 	<form>
 <dev>
 	<label for="name">1. Name</label>
-	<input type="text" id="name" placeholder="Name" required>
+	<input type="date" id="name" placeholder="Name" required>
 		</dev>
 		<dev>
 	<label for="email">2. Email</label>
-	<input type="text" id="Email" placeholder="Email" required >
+	<input type="email" id="email" placeholder="Email" required >
 </dev>
 		<dev>
 	
@@ -26,11 +26,12 @@
 	<input type="radio" name="gender" placeholder="gender" required>
 		</dev>
 		<dev>
-	4.Laptop Brands <select id="Laptop Brands" placeholder=""Laptop Brands" required>
-
-		<option value=""Laptop Brands">Apple</option>
-		<option value=""Laptop Brands">Asus</option>
-		<option value=""Laptop Brands">HP</option>
+	<label for="laptop">4.Choose your Laptop</label>
+			  <select name="laptop" id="laptop" required>
+				  <option value="" disabled selected>--Please choose an option--</option>
+		<option value=""laptop">Apple</option>
+		<option value=""laptop">Asus</option>
+		<option value=""laptop">HP</option>
 	</select>
 			</dev>
 		<dev>
@@ -43,8 +44,8 @@
 		</dev>
 
 		<dev>
-	<label for="name">7. Password</label>
-	<input type="password" id="name" placeholder="Password" required>
+	<label for="password">7. Password</label>
+	<input type="password" id="password" placeholder="Password" required>
 		</dev>
 	
 		<dev>
